@@ -5,7 +5,6 @@
 body { 
   margin: 0;
   background-color: #cfdbd5;
-
 }
 
 header {
@@ -18,21 +17,27 @@ header {
 h3 {
   text-align: center;
   font-size: 25px;
-  color:  #1F5673;
-}
-
-p {
-  margin-left: 10px;
+  color: #1F5673;
 }
 
 h4 {
   margin: 19px 25px;
 }
 
+p {
+  margin-left: 10px;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
 .tabs {
   display: flex;
   justify-content: space-between;
-  /*width: 25%;*/
   align-items: flex-end;
   color: white;
   margin-left: 20px;
@@ -46,7 +51,6 @@ h4 {
 .tab-p {
   margin-left: 5px;
 }
-
 
 .rick-icon {
   height: 25px;
@@ -81,16 +85,7 @@ h4 {
   flex-wrap: wrap;
   align-items: center;
   color: #b1d9ee;
-
 }
-
-.right-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-right: 15px;
-}
-
 
 .title {
   display: flex;
@@ -121,6 +116,7 @@ h4 {
   transition: 0.5s;
   transform: rotate(90deg);
 }
+
 .login-p {
   color: #b1d9ee;
 }
@@ -242,16 +238,20 @@ h4 {
   margin: 0 25px; 
   font-size: 14px;
 }
+
 .season{
   margin-bottom: 3px;
   font-size: 15px;
 }
+
 .episode {
   margin-top: 5px;
 }
+
 .app-header {
   margin-bottom: 5px;
 }
+
 .appearences {
   margin: 0 0 0 25px;
   font-size: 35px;
@@ -264,6 +264,7 @@ h4 {
     align-items: flex-start;
     margin-left: 10px;
   }
+
   .whacky-tab {
     margin-right: 10px;
   }
@@ -273,13 +274,14 @@ h4 {
   header {
     flex-direction: column-reverse;
   }
+
   .tabs {
     flex-direction: row;
     margin-bottom: 10px;
   }
+
   .right-nav {
     flex-direction: column-reverse;
     align-items: center;
   }
-
 }
