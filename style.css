@@ -1,0 +1,285 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+body { 
+  margin: 0;
+  background-color: #cfdbd5;
+
+}
+
+header {
+  background-color: #2b2b2b;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  color:  #1F5673;
+}
+
+p {
+  margin-left: 10px;
+}
+
+h4 {
+  margin: 19px 25px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  /*width: 25%;*/
+  align-items: flex-end;
+  color: white;
+  margin-left: 20px;
+}
+
+.tab-p:hover {
+  transition: 1s;
+  color: white;
+}
+
+.tab-p {
+  margin-left: 5px;
+}
+
+
+.rick-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.rick-tab {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.morty-icon {
+  height: 27px;
+  width: 27px;
+}
+
+.morty-tab {
+  display: flex;
+  align-items: center;
+  color: #b1d9ee;
+}
+
+.whacky-icon {
+  height: 25px;
+  width: 10px;
+  margin: 0 5px 0 10px;
+}
+
+.whacky-tab {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #b1d9ee;
+
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+
+.title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.web-title {
+  color: #b1d9ee;
+  display: inline;
+}
+
+.logo-img {
+  height: 75px;
+  width: 75px;
+}
+
+.login-icon {
+  height: 30px;
+  width: 38px;
+}
+.drop-down {
+  height: 15px;
+  width: 13px;
+  margin: 0 11px;
+}
+
+.drop-down:hover {
+  transition: 0.5s;
+  transform: rotate(90deg);
+}
+.login-p {
+  color: #b1d9ee;
+}
+
+.log-in {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-head {
+  margin-left: 10%;
+}
+
+.rick-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 69%;
+  height: 90%;
+}
+
+.rick-card {
+  height: 460px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px #AAA;
+  margin: 10px;
+  background-color: #d7e0dc;
+}
+
+.card-header {
+  height: 37%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.portal-image {
+  height: 60px;
+  width: 70px;
+}
+
+.portal-image:hover {
+  transition: 2s;
+  transform: rotate(1440deg);
+  height: 70px;
+  width: 80px;
+}
+.rick1 .card-header {
+  background-image: url(assets/Pickle-Rick-baby.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rick2 .card-header {
+  background-image: url(assets/maxresdefault.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.rick3 .card-header {
+  background-image: url(assets/tiny-rick.png);
+  background-size: 128%;
+  background-repeat: no-repeat;
+}
+
+.rick4 .card-header {
+  background-image: url(assets/b8c.png);
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
+.rick5 .card-header {
+  background-image: url(assets/rick-c137.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rick6 .card-header {
+  background-image: url(assets/evil-rick.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rick7 .card-header {
+  background-image: url(assets/council-of-ricks.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rick8 .card-header {
+  background-image: url(assets/simple-rick.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.rank {
+  margin: 5px 3px 0 0;
+  display: block;
+  text-shadow: 2px 2px 3px black;
+  color: white;
+  font-size: 25px;
+}
+
+.ranking {
+  margin: 0 6px 5px 0;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  font-size: 18px;
+  float: right;
+}
+
+.quote { 
+  background-color: #cfdbd5;
+  margin: 0 25px; 
+  font-size: 14px;
+}
+.season{
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+.episode {
+  margin-top: 5px;
+}
+.app-header {
+  margin-bottom: 5px;
+}
+.appearences {
+  margin: 0 0 0 25px;
+  font-size: 35px;
+  color: #078804;
+}
+
+@media (max-width: 1250px) {
+  .tabs {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .whacky-tab {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  header {
+    flex-direction: column-reverse;
+  }
+  .tabs {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .right-nav {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+}
