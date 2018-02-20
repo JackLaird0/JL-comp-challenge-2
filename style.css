@@ -41,15 +41,16 @@ p {
   align-items: flex-end;
   color: white;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .tab-p:hover {
-  transition: 1s;
   color: white;
 }
 
 .tab-p {
   margin-left: 5px;
+  transition: 1s;
 }
 
 .rick-icon {
@@ -110,21 +111,31 @@ p {
   height: 15px;
   width: 13px;
   margin: 0 11px;
+  transition: 0.8s;
 }
 
-.drop-down:hover {
-  transition: 0.5s;
+/*.drop-down:hover {
   transform: rotate(90deg);
-}
+}*/
 
 .login-p {
   color: #b1d9ee;
+  transition: 0.8s;
 }
 
 .log-in {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  cursor: pointer;
+}
+
+.log-in:hover .drop-down {
+  transform: rotate(90deg);
+}
+
+.log-in:hover .login-p {
+  color: white;
 }
 
 .main-head {
@@ -144,9 +155,14 @@ p {
   height: 460px;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px 3px #AAA;
+  box-shadow: 2px 5px 18px 3px #AAA;
   margin: 10px;
   background-color: #d7e0dc;
+  transition: 0.5s;
+}
+
+.rick-card:hover {
+  box-shadow: 2px 2px 2px 3px #AAA;
 }
 
 .card-header {
@@ -161,10 +177,10 @@ p {
 .portal-image {
   height: 60px;
   width: 70px;
+  transition: 2s;
 }
 
 .portal-image:hover {
-  transition: 2s;
   transform: rotate(1440deg);
   height: 70px;
   width: 80px;
